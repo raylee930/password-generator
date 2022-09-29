@@ -1,5 +1,5 @@
 body{ font-family:Verdana, Arial, Helvetica, sans-serif;}
-.rounded { -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px;  background-color:#990000; padding:27px;   font-size:12px; width:350px; background-image:url('background.png');
+.rounded { -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px;  background-color:#990000; padding:27px;   font-size:12px; width:350px; background-image:url('../img/background.png');
 background-repeat:no-repeat;
 background-position:right bottom;}
 h1{ font-size:15px; padding:5px;color:#900;}
