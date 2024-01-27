@@ -45,7 +45,7 @@ var App = (function ($, PasswordGenerator, gaq) {
 	};
 
 	function showresults(clau) {
-		$("#result").text(clau);
+		$("#result").val(clau);
 	}
 
 	function complete() {

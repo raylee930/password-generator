@@ -1,9 +1,0 @@
-body{ font-family:Verdana, Arial, Helvetica, sans-serif;}
-.rounded { -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px;  background-color:#990000; padding:27px;   font-size:12px; width:350px; background-image:url('../img/background.png');
-background-repeat:no-repeat;
-background-position:right bottom;}
-h1{ font-size:15px; padding:5px;color:#900;}
-.box {width:325px; margin:0px auto 5px auto; background-color:#eee; padding:5px; text-align:center; min-height:32px; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; vertical-align:middle; opacity: 0.98;}
-.inner { margin-top:6px; color:#900;} 
-.hidden { display:none;}
-a { color:#990000;}
