@@ -6,9 +6,8 @@ function copy() {
   
   var tooltip = document.getElementById("tooltip");
   tooltip.innerHTML = "已複製\u2705";
-}
 
-function mouseleave() {
-  var tooltip = document.getElementById("tooltip");
-  tooltip.innerHTML = "複製";
+  setTimeout(function() {
+    tooltip.innerHTML = "複製";
+  }, 2000);
 }
