@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
     // Set the default theme to dark if no setting is found in local storage
     const currentTheme = localStorage.getItem('bsTheme') || 'light';
     htmlElement.setAttribute('data-bs-theme', currentTheme);
-    switchElement.checked = currentTheme === 'light';
+    switchElement.checked = currentTheme === 'dark';
 
     switchElement.addEventListener('change', function () {
         if (this.checked) {
