@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>簡易密碼產生器</title>
+        <title>密碼產生器</title>
 		<script src="js/jquery-1.7.1.min.js"></script>
 		<script src="js/password.js"></script>
 		<script src="js/app.js"></script>
@@ -18,11 +18,10 @@
                 <div class="col-md-4 mx-auto">
 					<form>
 					<br />
-					<h2 id="text_title" class="text-center">簡易密碼產生器</h2>
+					<h2 id="text_title" class="text-center">密碼產生器</h2>
 					<br />
 					<div class="card">
 						<div class="card-body">
-							<br />
 							<label for="quant" class="form-label" id="text_passwordlength">密碼長度：</label><span id="num">8</span><br />
 							<input class="form-range" type="range" min="1" max="32" step="1" id="quant" name="quant" value="8">
 						
@@ -42,6 +41,10 @@
 								<input class="form-check-input" type="checkbox" id="simbols" name="simbols">
 								<label class="form-check-label">符號</label>
 							</div>
+							<div class="form-check form-switch">
+								<input class="form-check-input" type="checkbox" id="ModeSwitch">
+								<label class="form-check-label" for="ModeSwitch">黑暗模式</label>
+							</div>
 							<br />
 							<input type="button" class="btn btn-primary" value="產生" id="captura">
 						</div>
@@ -59,8 +62,8 @@
                 </div>
             </div>
         </div>
-
 		<script src="js/bootstrap.bundle.min.js"></script>
 		<script src="js/copy.js"></script>
+		<script src="js/dark.js"></script>
     </body>
 </html>
